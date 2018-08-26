@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38AA19E4FAEFC17799416293 /* Pods_Shopping_List.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0D09D879E92BF1F1E489ED /* Pods_Shopping_List.framework */; };
 		CBD503F9212B4E4800B41838 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD503F8212B4E4800B41838 /* AppDelegate.swift */; };
 		CBD503FB212B4E4800B41838 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD503FA212B4E4800B41838 /* ViewController.swift */; };
 		CBD503FE212B4E4800B41838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD503FC212B4E4800B41838 /* Main.storyboard */; };
 		CBD50400212B4E4A00B41838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD503FF212B4E4A00B41838 /* Assets.xcassets */; };
 		CBD50403212B4E4A00B41838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD50401212B4E4A00B41838 /* LaunchScreen.storyboard */; };
+		CBD5040C212D95B500B41838 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD5040A212D95B500B41838 /* ListTableViewCell.swift */; };
+		CBD5040D212D95B500B41838 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD5040B212D95B500B41838 /* ListTableViewCell.xib */; };
+		CBD5040F212DAC8200B41838 /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD5040E212DAC8200B41838 /* ShoppingList.swift */; };
+		CBD50411212E848700B41838 /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD50410212E848700B41838 /* ShoppingListViewController.swift */; };
+		CBD50414212E888500B41838 /* ListElementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD50412212E888500B41838 /* ListElementTableViewCell.swift */; };
+		CBD50415212E888500B41838 /* ListElementTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD50413212E888500B41838 /* ListElementTableViewCell.xib */; };
+		CBD50419212F4D9900B41838 /* SuggestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD50417212F4D9900B41838 /* SuggestionTableViewCell.swift */; };
+		CBD5041A212F4D9900B41838 /* SuggestionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD50418212F4D9900B41838 /* SuggestionTableViewCell.xib */; };
+		CBD5041C2131DECF00B41838 /* ShoppingListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD5041B2131DECF00B41838 /* ShoppingListElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7B1541EF5D7B7C788DAD9B9 /* Pods-Shopping List.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopping List.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shopping List/Pods-Shopping List.debug.xcconfig"; sourceTree = "<group>"; };
+		AE0D09D879E92BF1F1E489ED /* Pods_Shopping_List.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shopping_List.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD503F5212B4E4800B41838 /* Shopping List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopping List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD503F8212B4E4800B41838 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBD503FA212B4E4800B41838 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,16 @@
 		CBD503FF212B4E4A00B41838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBD50402212B4E4A00B41838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBD50404212B4E4A00B41838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD5040A212D95B500B41838 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		CBD5040B212D95B500B41838 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		CBD5040E212DAC8200B41838 /* ShoppingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingList.swift; sourceTree = "<group>"; };
+		CBD50410212E848700B41838 /* ShoppingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
+		CBD50412212E888500B41838 /* ListElementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListElementTableViewCell.swift; sourceTree = "<group>"; };
+		CBD50413212E888500B41838 /* ListElementTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListElementTableViewCell.xib; sourceTree = "<group>"; };
+		CBD50417212F4D9900B41838 /* SuggestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionTableViewCell.swift; sourceTree = "<group>"; };
+		CBD50418212F4D9900B41838 /* SuggestionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionTableViewCell.xib; sourceTree = "<group>"; };
+		CBD5041B2131DECF00B41838 /* ShoppingListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListElement.swift; sourceTree = "<group>"; };
+		CF497C9E82DF5C7F4238DC39 /* Pods-Shopping List.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopping List.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shopping List/Pods-Shopping List.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38AA19E4FAEFC17799416293 /* Pods_Shopping_List.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BC2489501683F654EEB9AF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE0D09D879E92BF1F1E489ED /* Pods_Shopping_List.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CBD503EC212B4E4800B41838 = {
 			isa = PBXGroup;
 			children = (
 				CBD503F7212B4E4800B41838 /* Shopping List */,
 				CBD503F6212B4E4800B41838 /* Products */,
+				E1B829A751D56BB89250B806 /* Pods */,
+				1BC2489501683F654EEB9AF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +93,34 @@
 				CBD503FF212B4E4A00B41838 /* Assets.xcassets */,
 				CBD50401212B4E4A00B41838 /* LaunchScreen.storyboard */,
 				CBD50404212B4E4A00B41838 /* Info.plist */,
+				CBD50416212E89FC00B41838 /* Custom Cells */,
+				CBD5040E212DAC8200B41838 /* ShoppingList.swift */,
+				CBD50410212E848700B41838 /* ShoppingListViewController.swift */,
+				CBD5041B2131DECF00B41838 /* ShoppingListElement.swift */,
 			);
 			path = "Shopping List";
+			sourceTree = "<group>";
+		};
+		CBD50416212E89FC00B41838 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CBD5040A212D95B500B41838 /* ListTableViewCell.swift */,
+				CBD5040B212D95B500B41838 /* ListTableViewCell.xib */,
+				CBD50412212E888500B41838 /* ListElementTableViewCell.swift */,
+				CBD50413212E888500B41838 /* ListElementTableViewCell.xib */,
+				CBD50417212F4D9900B41838 /* SuggestionTableViewCell.swift */,
+				CBD50418212F4D9900B41838 /* SuggestionTableViewCell.xib */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		E1B829A751D56BB89250B806 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7B1541EF5D7B7C788DAD9B9 /* Pods-Shopping List.debug.xcconfig */,
+				CF497C9E82DF5C7F4238DC39 /* Pods-Shopping List.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBD50407212B4E4A00B41838 /* Build configuration list for PBXNativeTarget "Shopping List" */;
 			buildPhases = (
+				E746974E6134F7F494B8C3ED /* [CP] Check Pods Manifest.lock */,
 				CBD503F1212B4E4800B41838 /* Sources */,
 				CBD503F2212B4E4800B41838 /* Frameworks */,
 				CBD503F3212B4E4800B41838 /* Resources */,
+				913AC03314DE6EBE997BA2F6 /* [CP] Embed Pods Frameworks */,
+				757F78D4183A03D921F8B991 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +185,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBD50403212B4E4A00B41838 /* LaunchScreen.storyboard in Resources */,
+				CBD5040D212D95B500B41838 /* ListTableViewCell.xib in Resources */,
+				CBD50415212E888500B41838 /* ListElementTableViewCell.xib in Resources */,
+				CBD5041A212F4D9900B41838 /* SuggestionTableViewCell.xib in Resources */,
 				CBD50400212B4E4A00B41838 /* Assets.xcassets in Resources */,
 				CBD503FE212B4E4800B41838 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +195,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		757F78D4183A03D921F8B991 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shopping List/Pods-Shopping List-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		913AC03314DE6EBE997BA2F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shopping List/Pods-Shopping List-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shopping List/Pods-Shopping List-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E746974E6134F7F494B8C3ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shopping List-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CBD503F1212B4E4800B41838 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CBD503FB212B4E4800B41838 /* ViewController.swift in Sources */,
+				CBD5040F212DAC8200B41838 /* ShoppingList.swift in Sources */,
+				CBD5041C2131DECF00B41838 /* ShoppingListElement.swift in Sources */,
+				CBD50414212E888500B41838 /* ListElementTableViewCell.swift in Sources */,
+				CBD50419212F4D9900B41838 /* SuggestionTableViewCell.swift in Sources */,
+				CBD50411212E848700B41838 /* ShoppingListViewController.swift in Sources */,
 				CBD503F9212B4E4800B41838 /* AppDelegate.swift in Sources */,
+				CBD5040C212D95B500B41838 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +405,7 @@
 		};
 		CBD50408212B4E4A00B41838 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7B1541EF5D7B7C788DAD9B9 /* Pods-Shopping List.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +424,7 @@
 		};
 		CBD50409212B4E4A00B41838 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF497C9E82DF5C7F4238DC39 /* Pods-Shopping List.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
